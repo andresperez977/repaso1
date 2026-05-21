@@ -30,13 +30,19 @@ public class Algorithm1 {
 		// Validation
 		if (a > 9 || a < 0 || b < 9 || b < 0 || c > 9 || c < 0) {
 			System.out.println("Your number should be single digit and non negative");
-			return 0;
-		}
+			return 0;	
+			
+		}  
+		//if (a <= 9 && a > 0 && b <= 9 && b >= 0 && c <= 9 && c > 0 ) {
+			
+			
+		//}
+		
 		// a=a * 100;
 		a *= 100;
 		b *= 10;
 		// output
 		return a + b + c;
 
-	 }
+	 } 
 }
