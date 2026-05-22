@@ -19,8 +19,10 @@ public class VariableTest {
 		System.out.println(result2);
 		System.out.println(Calculator.modulus(3.2f, 3));
 
-		
+		Object obj = new Calculator();
+	
 
 		}
 
 	}
+  

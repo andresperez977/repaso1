@@ -4,7 +4,7 @@ package repaso1;
 
 public class Calculator {
 	
-	public static final double PI = 3.14;
+	public static final double PI = 3.14;//nos ahorra memoria y se usa en general(static)
 	public final double PI_2 = 3.14;
 	public static int number = 0;
 	public int number2= 0;
